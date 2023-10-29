@@ -155,17 +155,13 @@
         <bounds x="468" y="440" width="168" height="227"/>
         <child xsi:type="archimate:Note" id="id-81fc5d72c3ac4027abb57b0f914cd5ce" lineColor="#0080ff" textAlignment="1" fillColor="#0080ff">
           <bounds x="12" y="24" width="145" height="181"/>
-          <content>- Melakukan Penyetokan barang-barang dan komponen elektronik&#xD;
+          <content>- Melakukan Penyetokan barang-barang Elektronik&#xD;
 - Melakukan kontrol inventaris penyimpanan barang-barang elektronik&#xD;
 </content>
         </child>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-4a73eaef3e4b413ba4782eab3288c333" fillColor="#ff80c0" archimateElement="id-4ce4e90eb424444f8f6168a8c984b09a">
         <bounds x="635" y="440" width="168" height="227"/>
-        <child xsi:type="archimate:Note" id="id-fb966dca6a99445c8bf39a2e51c387fa" lineColor="#ff80c0" textAlignment="1" fillColor="#ff80c0">
-          <bounds x="12" y="24" width="145" height="80"/>
-          <content>- Melakukan Perakitan Barang Elektronik</content>
-        </child>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-c11bbf79d04841079d4310c68077bce3" fillColor="#00ff80" archimateElement="id-1a7b185092b94cad8e770680ac4c456a">
         <bounds x="802" y="440" width="168" height="227"/>
