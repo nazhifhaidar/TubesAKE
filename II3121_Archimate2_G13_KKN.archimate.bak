@@ -3,14 +3,14 @@
   <folder name="Strategy" id="id-e37da549ad2349f6a7327bab63ded4ce" type="strategy">
     <element xsi:type="archimate:ValueStream" name=" " id="id-ce19204025674d308bb09825b868e8d3"/>
     <element xsi:type="archimate:ValueStream" name="Firm Infrastructure" id="id-79ff65936dac44ed9c737dfeea3b682f"/>
-    <element xsi:type="archimate:ValueStream" name="Firm Infrastructure (copy)" id="id-7050a13c10cb458892d771a0520ef8e3"/>
-    <element xsi:type="archimate:ValueStream" name="Firm Infrastructure (copy) (copy)" id="id-751710786144496fbb934b617778d56d"/>
-    <element xsi:type="archimate:ValueStream" name="Firm Infrastructure (copy) (copy) (copy)" id="id-dc732d5af5f14d82bab4123adb847df1"/>
-    <element xsi:type="archimate:ValueStream" name="Value Stream" id="id-44f8df5263f74cc2976d136b44568e49"/>
-    <element xsi:type="archimate:ValueStream" name="Value Stream (copy)" id="id-8c5823550cb74cbe89e82fc93f738011"/>
-    <element xsi:type="archimate:ValueStream" name="Value Stream (copy) (copy)" id="id-ab07a49f240c40faa465df872deffdfd"/>
-    <element xsi:type="archimate:ValueStream" name="Value Stream (copy) (copy) (copy)" id="id-21f2b32cf0cf4af1b6c995a8ecb7fda4"/>
-    <element xsi:type="archimate:ValueStream" name="Value Stream (copy) (copy) (copy) (copy)" id="id-80f1adb7784f4b44ba816957353bc08c"/>
+    <element xsi:type="archimate:ValueStream" name="Human Resource Development" id="id-7050a13c10cb458892d771a0520ef8e3"/>
+    <element xsi:type="archimate:ValueStream" name="Technology Development" id="id-751710786144496fbb934b617778d56d"/>
+    <element xsi:type="archimate:ValueStream" name="Procurement" id="id-dc732d5af5f14d82bab4123adb847df1"/>
+    <element xsi:type="archimate:ValueStream" name="Inbound Logistics" id="id-44f8df5263f74cc2976d136b44568e49"/>
+    <element xsi:type="archimate:ValueStream" name="Operations" id="id-8c5823550cb74cbe89e82fc93f738011"/>
+    <element xsi:type="archimate:ValueStream" name="Outbond Logistics" id="id-ab07a49f240c40faa465df872deffdfd"/>
+    <element xsi:type="archimate:ValueStream" name="Marketing and Sales" id="id-21f2b32cf0cf4af1b6c995a8ecb7fda4"/>
+    <element xsi:type="archimate:ValueStream" name="Services" id="id-80f1adb7784f4b44ba816957353bc08c"/>
   </folder>
   <folder name="Business" id="id-441516ccd02f426d9b9b883cb290698b" type="business">
     <element xsi:type="archimate:BusinessEvent" name="Firm Infrastructure" id="id-bd543c525c6d45fe9d8033a999097f81"/>
@@ -84,7 +84,7 @@
     <element xsi:type="archimate:ArchimateDiagramModel" name="Default View" id="id-df3c67d17c0f40898e38f553747b44e1"/>
     <element xsi:type="archimate:ArchimateDiagramModel" name="Value Chain" id="id-35dbbc1132fe4e449e90fc80c3817574">
       <child xsi:type="archimate:DiagramObject" id="id-b2716533d3934be2baf3510336351de9" fillColor="#80ff80" archimateElement="id-ce19204025674d308bb09825b868e8d3" type="1">
-        <bounds x="468" y="156" width="1093" height="511"/>
+        <bounds x="480" y="156" width="1093" height="511"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-2af349d0ee5541d585f28f4930232f9f" source="id-b2716533d3934be2baf3510336351de9" target="id-3490fc4a85f942a19d26641d65e128d6" archimateRelationship="id-791fdb279f8a4e169d89a9ab9345c420"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-42ae5b6d623d4f9d892bb7c1483f93bc" source="id-b2716533d3934be2baf3510336351de9" target="id-f0569ef426c34351a6c6dbbfb125ddad" archimateRelationship="id-64798cb4cb2e4aef8a2898f86e74ee93"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-f2e7a6949ba6465db299419434cfc04e" source="id-b2716533d3934be2baf3510336351de9" target="id-560a6edfe0d84703a50fb86817f6ae6b" archimateRelationship="id-111c8438255f48aa896645cdab4cd89e"/>
