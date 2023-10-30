@@ -11,6 +11,7 @@
     <element xsi:type="archimate:ValueStream" name="Outbond Logistics" id="id-ab07a49f240c40faa465df872deffdfd"/>
     <element xsi:type="archimate:ValueStream" name="Marketing and Sales" id="id-21f2b32cf0cf4af1b6c995a8ecb7fda4"/>
     <element xsi:type="archimate:ValueStream" name="Services" id="id-80f1adb7784f4b44ba816957353bc08c"/>
+    <element xsi:type="archimate:ValueStream" name=" " id="id-558b03232c2a4cf7952193c256d6bca5"/>
   </folder>
   <folder name="Business" id="id-441516ccd02f426d9b9b883cb290698b" type="business">
     <element xsi:type="archimate:BusinessEvent" name="Firm Infrastructure" id="id-bd543c525c6d45fe9d8033a999097f81"/>
