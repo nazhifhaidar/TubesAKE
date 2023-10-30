@@ -2,6 +2,10 @@
 <archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="(new model)" id="id-619abdf718d544e1808a9f387f874fbb" version="5.0.0">
   <folder name="Strategy" id="id-e37da549ad2349f6a7327bab63ded4ce" type="strategy">
     <element xsi:type="archimate:ValueStream" name=" " id="id-ce19204025674d308bb09825b868e8d3"/>
+    <element xsi:type="archimate:ValueStream" name="Firm Infrastructure" id="id-79ff65936dac44ed9c737dfeea3b682f"/>
+    <element xsi:type="archimate:ValueStream" name="Firm Infrastructure (copy)" id="id-7050a13c10cb458892d771a0520ef8e3"/>
+    <element xsi:type="archimate:ValueStream" name="Firm Infrastructure (copy) (copy)" id="id-751710786144496fbb934b617778d56d"/>
+    <element xsi:type="archimate:ValueStream" name="Firm Infrastructure (copy) (copy) (copy)" id="id-dc732d5af5f14d82bab4123adb847df1"/>
   </folder>
   <folder name="Business" id="id-441516ccd02f426d9b9b883cb290698b" type="business">
     <element xsi:type="archimate:BusinessEvent" name="Firm Infrastructure" id="id-bd543c525c6d45fe9d8033a999097f81"/>
@@ -61,43 +65,34 @@
   </folder>
   <folder name="Implementation &amp; Migration" id="id-1d53100c56fb409b85016c651ef11445" type="implementation_migration"/>
   <folder name="Other" id="id-8f1f1b4943d24579b9c10eb846c2386f" type="other"/>
-  <folder name="Relations" id="id-6e7f49b528e2417ba0eeffc5ba4a857e" type="relations"/>
+  <folder name="Relations" id="id-6e7f49b528e2417ba0eeffc5ba4a857e" type="relations">
+    <element xsi:type="archimate:CompositionRelationship" id="id-791fdb279f8a4e169d89a9ab9345c420" source="id-ce19204025674d308bb09825b868e8d3" target="id-7050a13c10cb458892d771a0520ef8e3"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-64798cb4cb2e4aef8a2898f86e74ee93" source="id-ce19204025674d308bb09825b868e8d3" target="id-751710786144496fbb934b617778d56d"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-111c8438255f48aa896645cdab4cd89e" source="id-ce19204025674d308bb09825b868e8d3" target="id-dc732d5af5f14d82bab4123adb847df1"/>
+  </folder>
   <folder name="Views" id="id-b94b9caa00e246d29a4e4c212330b310" type="diagrams">
     <element xsi:type="archimate:ArchimateDiagramModel" name="Default View" id="id-df3c67d17c0f40898e38f553747b44e1"/>
     <element xsi:type="archimate:ArchimateDiagramModel" name="Value Chain" id="id-35dbbc1132fe4e449e90fc80c3817574">
       <child xsi:type="archimate:DiagramObject" id="id-b2716533d3934be2baf3510336351de9" fillColor="#80ff80" archimateElement="id-ce19204025674d308bb09825b868e8d3" type="1">
-        <bounds x="864" y="156" width="697" height="511"/>
-      </child>
-      <child xsi:type="archimate:DiagramObject" id="id-f6ec5418a8184e47b9d959dbfc72b325" fillColor="#f5f0b4" archimateElement="id-bd543c525c6d45fe9d8033a999097f81">
-        <bounds x="468" y="156" width="840" height="72"/>
-        <child xsi:type="archimate:Note" id="id-7900f30f73664b96a6ce94c14d1499d5" lineColor="#f5f0b4" textAlignment="1" fillColor="#f5f0b4">
-          <bounds x="12" y="24" width="824" height="40"/>
-          <content>1. Mengelola administrasi keuangan&#xD;
-2. menentukan strategi penjualan</content>
+        <bounds x="468" y="156" width="1093" height="511"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-2af349d0ee5541d585f28f4930232f9f" source="id-b2716533d3934be2baf3510336351de9" target="id-3490fc4a85f942a19d26641d65e128d6" archimateRelationship="id-791fdb279f8a4e169d89a9ab9345c420"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-42ae5b6d623d4f9d892bb7c1483f93bc" source="id-b2716533d3934be2baf3510336351de9" target="id-f0569ef426c34351a6c6dbbfb125ddad" archimateRelationship="id-64798cb4cb2e4aef8a2898f86e74ee93"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-f2e7a6949ba6465db299419434cfc04e" source="id-b2716533d3934be2baf3510336351de9" target="id-560a6edfe0d84703a50fb86817f6ae6b" archimateRelationship="id-111c8438255f48aa896645cdab4cd89e"/>
+        <child xsi:type="archimate:DiagramObject" id="id-2b793af62f464a7597f598b5cb08888c" fillColor="#f5f0b4" archimateElement="id-79ff65936dac44ed9c737dfeea3b682f">
+          <bounds width="836" height="73"/>
+          <feature name="labelExpression" value="Firm Infrastructure&#xD;&#xA;1. Mengelola administrasi keuangan&#xD;&#xA;2. menentukan strategi penjualan"/>
         </child>
-      </child>
-      <child xsi:type="archimate:DiagramObject" id="id-a5f4584e44b04c73bfeef742ef4874c4" fillColor="#f5f0b4" archimateElement="id-39cde5f03a3a4e7a9bedaa13755917f4">
-        <bounds x="468" y="227" width="840" height="72"/>
-        <child xsi:type="archimate:Note" id="id-79a99da8c7384e5f852d16387e57785e" lineColor="#f5f0b4" textAlignment="1" fillColor="#f5f0b4">
-          <bounds x="12" y="24" width="817" height="40"/>
-          <content>1. Merekrut pegawai&#xD;
-2. Memberikan penggajian dan bonus kepada pegawai</content>
+        <child xsi:type="archimate:DiagramObject" id="id-3490fc4a85f942a19d26641d65e128d6" targetConnections="id-2af349d0ee5541d585f28f4930232f9f" fillColor="#f5f0b4" archimateElement="id-7050a13c10cb458892d771a0520ef8e3">
+          <bounds y="72" width="836" height="73"/>
+          <feature name="labelExpression" value="Human Resource Development&#xD;&#xA;1. Merekrut pegawai&#xD;&#xA;2. Memberikan penggajian dan bonus kepada pegawai"/>
         </child>
-      </child>
-      <child xsi:type="archimate:DiagramObject" id="id-db17c8efb9414a74b999806e6a533a13" fillColor="#f5f0b4" archimateElement="id-0e897742dcdc4baf83ceee7c304d71aa">
-        <bounds x="468" y="298" width="840" height="72"/>
-        <child xsi:type="archimate:Note" id="id-dc4883361fea458fb0e61a6f0aa870e9" lineColor="#f5f0b4" textAlignment="1" fillColor="#f5f0b4">
-          <bounds x="12" y="24" width="817" height="40"/>
-          <content>1. Memanfaatkan perangkat lunak Accurate untuk membantu akuntasi perusahaan&#xD;
-2. Memanfaatkan teknologi database untuk menyimpan data perusahaan</content>
+        <child xsi:type="archimate:DiagramObject" id="id-f0569ef426c34351a6c6dbbfb125ddad" targetConnections="id-42ae5b6d623d4f9d892bb7c1483f93bc" fillColor="#f5f0b4" archimateElement="id-751710786144496fbb934b617778d56d">
+          <bounds y="144" width="836" height="73"/>
+          <feature name="labelExpression" value="Technology Development&#xD;&#xA;1. Memanfaatkan perangkat lunak Accurate untuk membantu akuntasi perusahaan&#xD;&#xA;2. Memanfaatkan teknologi database untuk menyimpan data perusahaan"/>
         </child>
-      </child>
-      <child xsi:type="archimate:DiagramObject" id="id-b2d8118a5d96423f8165b908542c0745" fillColor="#f5f0b4" archimateElement="id-98cde07e5d5346228ba4a8a8e8de7415">
-        <bounds x="468" y="369" width="840" height="72"/>
-        <child xsi:type="archimate:Note" id="id-64e0b1e36c30427b824a2d4b2f0a1fa1" lineColor="#f5f0b4" textAlignment="1" fillColor="#f5f0b4">
-          <bounds x="12" y="24" width="817" height="40"/>
-          <content>1. Melakukan komunikasi berkala dengan supplier terkait pengadaan produk&#xD;
-2. Melalukan pengadaan produk yang akan dijual</content>
+        <child xsi:type="archimate:DiagramObject" id="id-560a6edfe0d84703a50fb86817f6ae6b" targetConnections="id-f2e7a6949ba6465db299419434cfc04e" fillColor="#f5f0b4" archimateElement="id-dc732d5af5f14d82bab4123adb847df1">
+          <bounds y="216" width="836" height="73"/>
+          <feature name="labelExpression" value="Procurement&#xD;&#xA;1. Melakukan komunikasi berkala dengan supplier terkait pengadaan produk&#xD;&#xA;2. Melalukan pengadaan produk yang akan dijual"/>
         </child>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-42ec20cbffdf49e0844140342d9b47c9" fillColor="#0080ff" archimateElement="id-5555c89ca7f94a53832b053d7b484f87">
@@ -131,7 +126,7 @@
         <child xsi:type="archimate:Note" id="id-76a93c610bcb4c7a8128dd9ff6a7e954" lineColor="#8080c0" textAlignment="1" fillColor="#8080c0">
           <bounds x="12" y="24" width="145" height="193"/>
           <content>1. Melakukan promosi produk melalui konten media sosial&#xD;
-2. Bekerja sama dengan platform e-commerce</content>
+2. Melakukan kerja sama dengan platform e-commerce</content>
         </child>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-7b27913e225049c08dc2282f737d6ca6" fillColor="#008080" archimateElement="id-a186bf8a5ea345eda3066f317765e1de">
