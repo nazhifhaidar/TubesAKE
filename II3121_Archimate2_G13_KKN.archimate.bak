@@ -6,6 +6,11 @@
     <element xsi:type="archimate:ValueStream" name="Firm Infrastructure (copy)" id="id-7050a13c10cb458892d771a0520ef8e3"/>
     <element xsi:type="archimate:ValueStream" name="Firm Infrastructure (copy) (copy)" id="id-751710786144496fbb934b617778d56d"/>
     <element xsi:type="archimate:ValueStream" name="Firm Infrastructure (copy) (copy) (copy)" id="id-dc732d5af5f14d82bab4123adb847df1"/>
+    <element xsi:type="archimate:ValueStream" name="Value Stream" id="id-44f8df5263f74cc2976d136b44568e49"/>
+    <element xsi:type="archimate:ValueStream" name="Value Stream (copy)" id="id-8c5823550cb74cbe89e82fc93f738011"/>
+    <element xsi:type="archimate:ValueStream" name="Value Stream (copy) (copy)" id="id-ab07a49f240c40faa465df872deffdfd"/>
+    <element xsi:type="archimate:ValueStream" name="Value Stream (copy) (copy) (copy)" id="id-21f2b32cf0cf4af1b6c995a8ecb7fda4"/>
+    <element xsi:type="archimate:ValueStream" name="Value Stream (copy) (copy) (copy) (copy)" id="id-80f1adb7784f4b44ba816957353bc08c"/>
   </folder>
   <folder name="Business" id="id-441516ccd02f426d9b9b883cb290698b" type="business">
     <element xsi:type="archimate:BusinessEvent" name="Firm Infrastructure" id="id-bd543c525c6d45fe9d8033a999097f81"/>
@@ -69,6 +74,11 @@
     <element xsi:type="archimate:CompositionRelationship" id="id-791fdb279f8a4e169d89a9ab9345c420" source="id-ce19204025674d308bb09825b868e8d3" target="id-7050a13c10cb458892d771a0520ef8e3"/>
     <element xsi:type="archimate:CompositionRelationship" id="id-64798cb4cb2e4aef8a2898f86e74ee93" source="id-ce19204025674d308bb09825b868e8d3" target="id-751710786144496fbb934b617778d56d"/>
     <element xsi:type="archimate:CompositionRelationship" id="id-111c8438255f48aa896645cdab4cd89e" source="id-ce19204025674d308bb09825b868e8d3" target="id-dc732d5af5f14d82bab4123adb847df1"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-cef6f8319f304f5aa547a5f94db381b4" source="id-ce19204025674d308bb09825b868e8d3" target="id-44f8df5263f74cc2976d136b44568e49"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-50b5d9cb82bc44f6a461f6f3772fe588" source="id-ce19204025674d308bb09825b868e8d3" target="id-8c5823550cb74cbe89e82fc93f738011"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-d101ca124f384bfdb3fae589dd9e87fc" source="id-ce19204025674d308bb09825b868e8d3" target="id-ab07a49f240c40faa465df872deffdfd"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-c6ecdde45ba84f0abb0597efcf2e8c90" source="id-ce19204025674d308bb09825b868e8d3" target="id-21f2b32cf0cf4af1b6c995a8ecb7fda4"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-99c7549c604f485e805f463d037dca87" source="id-ce19204025674d308bb09825b868e8d3" target="id-80f1adb7784f4b44ba816957353bc08c"/>
   </folder>
   <folder name="Views" id="id-b94b9caa00e246d29a4e4c212330b310" type="diagrams">
     <element xsi:type="archimate:ArchimateDiagramModel" name="Default View" id="id-df3c67d17c0f40898e38f553747b44e1"/>
@@ -78,6 +88,11 @@
         <sourceConnection xsi:type="archimate:Connection" id="id-2af349d0ee5541d585f28f4930232f9f" source="id-b2716533d3934be2baf3510336351de9" target="id-3490fc4a85f942a19d26641d65e128d6" archimateRelationship="id-791fdb279f8a4e169d89a9ab9345c420"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-42ae5b6d623d4f9d892bb7c1483f93bc" source="id-b2716533d3934be2baf3510336351de9" target="id-f0569ef426c34351a6c6dbbfb125ddad" archimateRelationship="id-64798cb4cb2e4aef8a2898f86e74ee93"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-f2e7a6949ba6465db299419434cfc04e" source="id-b2716533d3934be2baf3510336351de9" target="id-560a6edfe0d84703a50fb86817f6ae6b" archimateRelationship="id-111c8438255f48aa896645cdab4cd89e"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-5ec52d6d90284453b8b7b974285141c8" source="id-b2716533d3934be2baf3510336351de9" target="id-5ce352f749bc4b72abe571b134870ebf" archimateRelationship="id-cef6f8319f304f5aa547a5f94db381b4"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-ce3bf6d87d314a378a6e1065a505e803" source="id-b2716533d3934be2baf3510336351de9" target="id-077dbabe90b546a38ce0c48e5cb71ead" archimateRelationship="id-50b5d9cb82bc44f6a461f6f3772fe588"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-b13019784a8a4ee98414068af9dbe500" source="id-b2716533d3934be2baf3510336351de9" target="id-4d9b974e1fc242f18f381ed236ea9a22" archimateRelationship="id-d101ca124f384bfdb3fae589dd9e87fc"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-4dd6c5149dad4f9d9776bebfeb76813b" source="id-b2716533d3934be2baf3510336351de9" target="id-4404b4c7a5d843bbb966300080663bf0" archimateRelationship="id-c6ecdde45ba84f0abb0597efcf2e8c90"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-86abce0060804aa8a623523aeda0ac04" source="id-b2716533d3934be2baf3510336351de9" target="id-ee70760429964dc997aa10d9b4e53ca5" archimateRelationship="id-99c7549c604f485e805f463d037dca87"/>
         <child xsi:type="archimate:DiagramObject" id="id-2b793af62f464a7597f598b5cb08888c" fillColor="#f5f0b4" archimateElement="id-79ff65936dac44ed9c737dfeea3b682f">
           <bounds width="836" height="73"/>
           <feature name="labelExpression" value="Firm Infrastructure&#xD;&#xA;1. Mengelola administrasi keuangan&#xD;&#xA;2. menentukan strategi penjualan"/>
@@ -94,47 +109,25 @@
           <bounds y="216" width="836" height="73"/>
           <feature name="labelExpression" value="Procurement&#xD;&#xA;1. Melakukan komunikasi berkala dengan supplier terkait pengadaan produk&#xD;&#xA;2. Melalukan pengadaan produk yang akan dijual"/>
         </child>
-      </child>
-      <child xsi:type="archimate:DiagramObject" id="id-42ec20cbffdf49e0844140342d9b47c9" fillColor="#0080ff" archimateElement="id-5555c89ca7f94a53832b053d7b484f87">
-        <bounds x="468" y="440" width="168" height="227"/>
-        <child xsi:type="archimate:Note" id="id-81fc5d72c3ac4027abb57b0f914cd5ce" lineColor="#0080ff" textAlignment="1" fillColor="#0080ff">
-          <bounds x="12" y="24" width="145" height="181"/>
-          <content>1. Melakukan Penyetokan barang-barang dan komponen elektronik&#xD;
-2. Melakukan kontrol inventaris penyimpanan barang-barang elektronik&#xD;
-3. Menghubungi supplier untuk mengirimkan barang ke gudang&#xD;
-</content>
+        <child xsi:type="archimate:DiagramObject" id="id-5ce352f749bc4b72abe571b134870ebf" targetConnections="id-5ec52d6d90284453b8b7b974285141c8" textAlignment="1" fillColor="#0080ff" archimateElement="id-44f8df5263f74cc2976d136b44568e49">
+          <bounds y="288" width="168" height="228"/>
+          <feature name="labelExpression" value="Inbound Logistics&#xD;&#xA;&#xD;&#xA;1. Melakukan Penyetokan barang-barang dan komponen elektronik&#xD;&#xA;2. Melakukan kontrol inventaris penyimpanan barang-barang elektronik&#xD;&#xA;3. Menghubungi supplier untuk mengirimkan barang ke gudang&#xD;&#xA;"/>
         </child>
-      </child>
-      <child xsi:type="archimate:DiagramObject" id="id-4a73eaef3e4b413ba4782eab3288c333" fillColor="#ff80c0" archimateElement="id-4ce4e90eb424444f8f6168a8c984b09a">
-        <bounds x="635" y="440" width="168" height="227"/>
-        <child xsi:type="archimate:Note" id="id-fb966dca6a99445c8bf39a2e51c387fa" lineColor="#ff80c0" textAlignment="1" fillColor="#ff80c0">
-          <bounds x="12" y="24" width="145" height="157"/>
-          <content>1. Melakukan Perakitan Barang Elektronik&#xD;
-2. Melakukan sortir barang sesuai dengan kebutuhan</content>
+        <child xsi:type="archimate:DiagramObject" id="id-077dbabe90b546a38ce0c48e5cb71ead" targetConnections="id-ce3bf6d87d314a378a6e1065a505e803" textAlignment="1" fillColor="#ff80c0" archimateElement="id-8c5823550cb74cbe89e82fc93f738011">
+          <bounds x="167" y="288" width="168" height="228"/>
+          <feature name="labelExpression" value="Operations&#xD;&#xA;&#xD;&#xA;1. Melakukan Perakitan Barang Elektronik&#xD;&#xA;2. Melakukan sortir barang sesuai dengan kebutuhan&#xD;&#xA;"/>
         </child>
-      </child>
-      <child xsi:type="archimate:DiagramObject" id="id-c11bbf79d04841079d4310c68077bce3" fillColor="#00ff80" archimateElement="id-1a7b185092b94cad8e770680ac4c456a">
-        <bounds x="802" y="440" width="168" height="227"/>
-        <child xsi:type="archimate:Note" id="id-468b2bfc7a214d5791c6cd99ac1df7dd" lineColor="#00ff80" textAlignment="1" fillColor="#00ff80">
-          <bounds x="12" y="24" width="145" height="133"/>
-          <content>1. Mendistribusikan produk secara langsung ke toko-toko UNIX ELECTRICAL&#xD;
-2. Mengantarkan produk ke pelanggan melalui jasa ekspedisi</content>
+        <child xsi:type="archimate:DiagramObject" id="id-4d9b974e1fc242f18f381ed236ea9a22" targetConnections="id-b13019784a8a4ee98414068af9dbe500" textAlignment="1" fillColor="#00ff80" archimateElement="id-ab07a49f240c40faa465df872deffdfd">
+          <bounds x="334" y="288" width="170" height="228"/>
+          <feature name="labelExpression" value="Outbond Logistics&#xD;&#xA;&#xD;&#xA;1. Mendistribusikan produk secara langsung ke toko-toko UNIX ELECTRICAL&#xD;&#xA;2. Mengantarkan produk ke pelanggan melalui jasa ekspedisi&#xD;&#xA;"/>
         </child>
-      </child>
-      <child xsi:type="archimate:DiagramObject" id="id-b8a366cec2984c799fd5639a4f00e492" fillColor="#8080c0" archimateElement="id-60089fb05a15477c8ffe858ff47f53f4">
-        <bounds x="969" y="440" width="168" height="227"/>
-        <child xsi:type="archimate:Note" id="id-76a93c610bcb4c7a8128dd9ff6a7e954" lineColor="#8080c0" textAlignment="1" fillColor="#8080c0">
-          <bounds x="12" y="24" width="145" height="193"/>
-          <content>1. Melakukan promosi produk melalui konten media sosial&#xD;
-2. Melakukan kerja sama dengan platform e-commerce</content>
+        <child xsi:type="archimate:DiagramObject" id="id-4404b4c7a5d843bbb966300080663bf0" targetConnections="id-4dd6c5149dad4f9d9776bebfeb76813b" textAlignment="1" fillColor="#8080c0" archimateElement="id-21f2b32cf0cf4af1b6c995a8ecb7fda4">
+          <bounds x="503" y="288" width="170" height="228"/>
+          <feature name="labelExpression" value="Marketing and Sales&#xD;&#xA;&#xD;&#xA;1. Melakukan promosi produk melalui konten media sosial&#xD;&#xA;2. Melakukan kerja sama dengan platform e-commerce"/>
         </child>
-      </child>
-      <child xsi:type="archimate:DiagramObject" id="id-7b27913e225049c08dc2282f737d6ca6" fillColor="#008080" archimateElement="id-a186bf8a5ea345eda3066f317765e1de">
-        <bounds x="1136" y="440" width="168" height="227"/>
-        <child xsi:type="archimate:Note" id="id-4b4ec76695e94f648212fa2fbe19e97a" lineColor="#008080" textAlignment="1" fillColor="#008080">
-          <bounds x="12" y="24" width="145" height="145"/>
-          <content>1. Menerima jasa perakitan dan perbaikan barang&#xD;
-2. Menyediakan garansi untuk barang-barang yang terjual</content>
+        <child xsi:type="archimate:DiagramObject" id="id-ee70760429964dc997aa10d9b4e53ca5" targetConnections="id-86abce0060804aa8a623523aeda0ac04" textAlignment="1" fillColor="#008080" archimateElement="id-80f1adb7784f4b44ba816957353bc08c">
+          <bounds x="672" y="288" width="170" height="228"/>
+          <feature name="labelExpression" value="Services&#xD;&#xA;&#xD;&#xA;1. Menerima jasa perakitan dan perbaikan barang&#xD;&#xA;2. Menyediakan garansi untuk barang-barang yang terjual"/>
         </child>
       </child>
     </element>
