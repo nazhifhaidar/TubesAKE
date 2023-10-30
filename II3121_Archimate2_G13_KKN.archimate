@@ -66,7 +66,7 @@
     <element xsi:type="archimate:ArchimateDiagramModel" name="Default View" id="id-df3c67d17c0f40898e38f553747b44e1"/>
     <element xsi:type="archimate:ArchimateDiagramModel" name="Value Chain" id="id-35dbbc1132fe4e449e90fc80c3817574">
       <child xsi:type="archimate:DiagramObject" id="id-b2716533d3934be2baf3510336351de9" fillColor="#80ff80" archimateElement="id-ce19204025674d308bb09825b868e8d3" type="1">
-        <bounds x="864" y="156" width="697" height="511"/>
+        <bounds x="468" y="156" width="1093" height="511"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-f6ec5418a8184e47b9d959dbfc72b325" fillColor="#f5f0b4" archimateElement="id-bd543c525c6d45fe9d8033a999097f81">
         <bounds x="468" y="156" width="840" height="72"/>
