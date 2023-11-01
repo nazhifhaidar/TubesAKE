@@ -96,19 +96,19 @@
         <sourceConnection xsi:type="archimate:Connection" id="id-86abce0060804aa8a623523aeda0ac04" source="id-b2716533d3934be2baf3510336351de9" target="id-ee70760429964dc997aa10d9b4e53ca5" archimateRelationship="id-99c7549c604f485e805f463d037dca87"/>
         <child xsi:type="archimate:DiagramObject" id="id-2b793af62f464a7597f598b5cb08888c" fillColor="#f5f0b4" archimateElement="id-79ff65936dac44ed9c737dfeea3b682f">
           <bounds width="836" height="73"/>
-          <feature name="labelExpression" value="Firm Infrastructure: Mengelola administrasi keuangan, menentukan strategi penjualan"/>
+          <feature name="labelExpression" value="Firm Infrastructure: &#xD;&#xA;1. Mengelola administrasi keuangan&#xD;&#xA;2. menentukan strategi penjualan"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-3490fc4a85f942a19d26641d65e128d6" targetConnections="id-2af349d0ee5541d585f28f4930232f9f" fillColor="#f5f0b4" archimateElement="id-7050a13c10cb458892d771a0520ef8e3">
           <bounds y="72" width="836" height="73"/>
-          <feature name="labelExpression" value="Human Resource Development: Merekrut pegawai, Memberikan penggajian dan bonus kepada pegawai"/>
+          <feature name="labelExpression" value="Human Resource Development: &#xD;&#xA;1. Merekrut pegawai&#xD;&#xA;2.Memberikan penggajian dan bonus kepada pegawai"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-f0569ef426c34351a6c6dbbfb125ddad" targetConnections="id-42ae5b6d623d4f9d892bb7c1483f93bc" fillColor="#f5f0b4" archimateElement="id-751710786144496fbb934b617778d56d">
           <bounds y="144" width="836" height="73"/>
-          <feature name="labelExpression" value="Technology Development: Memanfaatkan perangkat lunak Accurate untuk membantu akuntasi perusahaan, Memanfaatkan teknologi database untuk menyimpan data perusahaan"/>
+          <feature name="labelExpression" value="Technology Development: &#xD;&#xA;1. Memanfaatkan perangkat lunak Accurate untuk membantu akuntasi perusahaan&#xD;&#xA;2. Memanfaatkan teknologi database untuk menyimpan data perusahaan"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-560a6edfe0d84703a50fb86817f6ae6b" targetConnections="id-f2e7a6949ba6465db299419434cfc04e" fillColor="#f5f0b4" archimateElement="id-dc732d5af5f14d82bab4123adb847df1">
           <bounds y="216" width="836" height="73"/>
-          <feature name="labelExpression" value="Procurement: Melakukan komunikasi berkala dengan supplier terkait pengadaan produk, Melalukan pengadaan produk yang akan dijual"/>
+          <feature name="labelExpression" value="Procurement: &#xD;&#xA;1. Melakukan komunikasi berkala dengan supplier terkait pengadaan produk&#xD;&#xA;2. Melakukan pengadaan produk yang akan dijual"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-5ce352f749bc4b72abe571b134870ebf" targetConnections="id-5ec52d6d90284453b8b7b974285141c8" textAlignment="1" fillColor="#0080ff" archimateElement="id-44f8df5263f74cc2976d136b44568e49">
           <bounds y="288" width="168" height="228"/>
